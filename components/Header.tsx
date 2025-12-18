@@ -88,20 +88,6 @@ export default function Header() {
                                 {link.name}
                             </Link>
                         ))}
-                        <Link
-                            href="#get-involved"
-                            onClick={() => setIsOpen(false)}
-                            className="text-base font-semibold text-primary py-2"
-                        >
-                            Get Involved
-                        </Link>
-                        <Link
-                            href="#donate"
-                            onClick={() => setIsOpen(false)}
-                            className="w-full text-center px-6 py-3 bg-accent text-white font-semibold rounded-md"
-                        >
-                            Donate Now
-                        </Link>
                     </div>
                 </div>
             )}

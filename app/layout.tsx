@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Shining Shield Foundation (SSF) | Together We Shield, Together We Shine",
+  title: "Shining Shield Foundation (SSF) | Together we shield, together we shine",
   description: "The official website of Shining Shield Foundation (SSF). Dedicated to supporting brilliant but less privileged students in Sierra Leone through educational materials and community outreach.",
   metadataBase: new URL('https://shiningshieldfoundation.org'),
 };
