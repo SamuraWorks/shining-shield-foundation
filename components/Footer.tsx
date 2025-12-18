@@ -23,6 +23,9 @@ export default function Footer() {
                             "Together We Shield, Together We Shine"
                         </p>
                         <div className="flex gap-4">
+                            <a href="https://www.facebook.com/profile.php?id=61581533830522" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors">
+                                <Facebook size={16} />
+                            </a>
                             <a href="https://instagram.com/shiningshield.foundation" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors">
                                 <Instagram size={16} />
                             </a>
