@@ -8,47 +8,35 @@ export default function About() {
 
                     {/* Text Content */}
                     <div>
-                        <h2 className="text-accent font-bold uppercase tracking-widest text-sm mb-3">Who We Are</h2>
+                        <h2 className="text-accent font-bold uppercase tracking-widest text-sm mb-3">About Us</h2>
                         <h3 className="text-3xl md:text-4xl font-heading font-bold text-primary mb-6">
-                            Empowering students to build a brighter future.
+                            Protecting dreams, empowering futures
                         </h3>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            The Shining Shield Foundation is a community-driven initiative focused on bridging the gap for talented students who lack the resources to pursue their education. We believe that by shielding our youth from financial limitations, we allow them to shine.
+                            Shining Shield Foundation (SSF) is dedicated to fostering safe learning environments and promoting gender equality. We offer support to those facing social, financial, or emotional constraints so they can rebuild their dreams and shine in life.
                         </p>
 
-                        <div className="space-y-6 mt-8">
+                        <div className="space-y-8 mt-8">
                             <div className="flex gap-4">
-                                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary">
-                                    <Shield size={24} />
-                                </div>
-                                <div>
-                                    <h4 className="text-xl font-bold text-primary mb-2">Our Mission</h4>
-                                    <p className="text-slate-600">
-                                        To support brilliant but less privileged students through educational materials and back-to-school initiatives.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="flex gap-4">
-                                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary">
+                                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary mt-1">
                                     <Target size={24} />
                                 </div>
                                 <div>
-                                    <h4 className="text-xl font-bold text-primary mb-2">Our Vision</h4>
-                                    <p className="text-slate-600">
-                                        A community where every child has the tools they need to succeed and contribute to society.
+                                    <h4 className="text-xl font-bold text-primary mb-2">Vision Statement</h4>
+                                    <p className="text-slate-600 leading-relaxed">
+                                        To create a society where every child and youth especially girls has the protection, support, and opportunities needed to thrive academically, emotionally, and socially, regardless of their background, circumstances, or challenges.
                                     </p>
                                 </div>
                             </div>
 
                             <div className="flex gap-4">
-                                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary">
-                                    <Heart size={24} />
+                                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary mt-1">
+                                    <Shield size={24} />
                                 </div>
                                 <div>
-                                    <h4 className="text-xl font-bold text-primary mb-2">Community First</h4>
-                                    <p className="text-slate-600">
-                                        We work directly with communities to identify needs and deliver support where it matters most.
+                                    <h4 className="text-xl font-bold text-primary mb-2">Mission Statement</h4>
+                                    <p className="text-slate-600 leading-relaxed">
+                                        To empower and protect children and youths particularly brilliant but underprivileged students, school dropouts, and vulnerable girls by providing access to education, mentorship, and life skills training. We strive to foster safe learning environments, promote gender equality, and offer support to those facing social, financial, or emotional constraints so they can rebuild their dreams and shine in life.
                                     </p>
                                 </div>
                             </div>
@@ -57,7 +45,7 @@ export default function About() {
                         {/* Disclaimer Box */}
                         <div className="mt-10 p-4 border-l-4 border-accent bg-slate-50 rounded-r-md">
                             <p className="text-sm text-slate-500 italic">
-                                * Note: Shining Shield Foundation is a community initiative currently in the process of official registration in Sierra Leone.
+                                Note: Shining Shield Foundation is an emerging community initiative currently in the process of registration.
                             </p>
                         </div>
                     </div>

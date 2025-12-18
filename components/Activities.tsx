@@ -4,19 +4,19 @@ import { Reveal } from "./Reveal";
 export default function Activities() {
     const activities = [
         {
-            title: "Educational Materials",
-            description: "Providing essential learning tools like books, bags, and uniforms to students who cannot afford them.",
+            title: "Educational Support & Donations",
+            description: "Back-to-school donations, school supplies, mentorship.",
             icon: <BookOpen size={32} />,
         },
         {
-            title: "Back-to-School Support",
-            description: "Annual drives to ensure students are equipped and ready for the new academic year.",
-            icon: <School size={32} />,
+            title: "Community Engagement",
+            description: "School visits, student mentorship, parent/community collaboration.",
+            icon: <Users size={32} />,
         },
         {
-            title: "Community Outreach",
-            description: "Engaging directly with local communities to identify families in need of educational assistance.",
-            icon: <Users size={32} />,
+            title: "Partnerships",
+            description: "Collaboration with individuals, schools, and organizations.",
+            icon: <School size={32} />,
         },
     ];
 

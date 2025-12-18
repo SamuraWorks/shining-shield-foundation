@@ -41,11 +41,8 @@ export default function Founder() {
                         </div>
 
                         <div className="prose prose-slate text-slate-600">
-                            <p className="mb-4">
-                                Blessing Conteh is a passionate advocate for education and community development. A graduate of the <strong>Institute of Public Administration and Management (IPAM)</strong> with a <strong>BSc in Applied Accounting</strong>, she combines her financial expertise with a drive to make a tangible difference in the lives of the less privileged.
-                            </p>
-                            <p>
-                                As the CEO of Catherine Skincare, Blessing brings entrepreneurial spirit and leadership to the Shining Shield Foundation. She founded this initiative in 2025 with a singular goal: to ensure that financial barriers do not stop brilliant minds from achieving their potential.
+                            <p className="text-lg leading-relaxed">
+                                Shining Shield Foundation was founded by Blessing Conteh, a graduate of the Institute of Public Administration and Management (IPAM) and CEO of Catheria Skincare, driven by a commitment to supporting brilliant but less privileged students through practical action, partnerships, and responsible stewardship.
                             </p>
                         </div>
 

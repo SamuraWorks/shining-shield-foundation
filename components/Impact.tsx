@@ -30,7 +30,7 @@ export default function Impact() {
                                 <div className="flex flex-col sm:flex-row gap-4 text-slate-500 text-sm">
                                     <div className="flex items-center gap-2">
                                         <Calendar size={16} className="text-accent" />
-                                        25th September 2025
+                                        25 September 2025
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <MapPin size={16} className="text-accent" />

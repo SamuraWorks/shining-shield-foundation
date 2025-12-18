@@ -20,7 +20,7 @@ export default function Footer() {
                             <span className="text-xl font-bold font-heading tracking-tight">Shining Shield (SSF)</span>
                         </div>
                         <p className="text-slate-300 text-sm leading-relaxed mb-6">
-                            "Together We Shield, Together We Shine"
+                            "Together we shield, together we shine"
                         </p>
                         <div className="flex gap-4">
                             <a href="https://www.facebook.com/profile.php?id=61581533830522" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors">
@@ -86,7 +86,7 @@ export default function Footer() {
                 <div className="border-t border-white/10 pt-8 text-center">
                     <p className="text-slate-400 text-sm max-w-2xl mx-auto">
                         &copy; {new Date().getFullYear()} Shining Shield Foundation (SSF). All rights reserved.<br />
-                        <span className="opacity-80 mt-2 block italic">Shining Shield Foundation (SSF) is an emerging community initiative currently in the process of formal registration.</span>
+                        <span className="opacity-80 mt-2 block italic">Shining Shield Foundation (SSF) is an emerging community initiative currently working toward formal registration.</span>
                     </p>
                 </div>
             </div>

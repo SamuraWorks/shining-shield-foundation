@@ -26,24 +26,50 @@ export default function SupportProducts() {
                 <div className="text-center mb-16">
                     <h2 className="text-accent font-bold uppercase tracking-widest text-sm mb-3">Support The Cause</h2>
                     <h3 className="text-3xl md:text-3xl font-heading font-bold text-primary mb-4">
-                        Wear Your Support
+                        Support Products
                     </h3>
-                    <p className="text-slate-600">
-                        Proceeds from every purchase go directly to our emergency response fund.
+                    <p className="text-slate-600 max-w-2xl mx-auto">
+                        To support our educational and community programs, SSF offers a small selection of branded support products. Proceeds go directly to foundation initiatives.
                     </p>
                 </div>
 
-                <div className="max-w-3xl mx-auto bg-slate-50 rounded-2xl p-12 border border-slate-100 text-center shadow-sm">
-                    <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center text-accent mx-auto mb-6 shadow-sm border border-slate-100">
-                        <ShoppingBag size={32} />
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    {/* Product 1 */}
+                    <div className="bg-slate-50 rounded-xl p-6 border border-slate-100 flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
+                        <div className="w-32 h-32 bg-white rounded-lg flex-shrink-0 flex items-center justify-center border border-slate-200 shadow-sm overflow-hidden">
+                            <img src="/products/soap.jpg" alt="Shield Clean Soap" className="w-full h-full object-cover" />
+                        </div>
+                        <div className="flex-1">
+                            <h4 className="text-xl font-bold text-primary mb-2">Shield Clean Multi-Purpose Liquid Soap</h4>
+                            <p className="text-sm text-slate-600 mb-4">
+                                "Clean Hands, Clean Hearts, Brighter Futures."<br />
+                                Versatile soap supporting SSF programs.
+                            </p>
+                            <Link
+                                href="#contact"
+                                className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-primary text-primary font-semibold rounded-md hover:bg-primary hover:text-white transition-colors text-sm"
+                            >
+                                Enquire / Support
+                            </Link>
+                        </div>
                     </div>
-                    <h4 className="text-2xl font-bold text-primary mb-4">Official Merchandise Coming Soon</h4>
-                    <p className="text-slate-600 mb-8 leading-relaxed">
-                        We are currently designing a range of official Shining Shield Foundation wear, including T-shirts, caps, and lapel pins. Proceeds will support our educational initiatives.
-                    </p>
-                    <Link href="#contact" className="inline-flex items-center gap-2 text-primary font-bold hover:text-accent transition-colors border-b-2 border-primary hover:border-accent pb-1">
-                        Pre-order or Enquire
-                    </Link>
+
+                    {/* Product 2 (Placeholder) */}
+                    <div className="bg-slate-50 rounded-xl p-6 border border-slate-100 flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
+                        <div className="w-32 h-32 bg-white rounded-lg flex-shrink-0 flex items-center justify-center border border-slate-200 shadow-sm">
+                            <ShoppingBag className="text-slate-300" size={32} />
+                        </div>
+                        <div className="flex-1">
+                            <h4 className="text-xl font-bold text-primary mb-2">Other Branded Items</h4>
+                            <p className="text-sm text-slate-600 mb-4">Educational materials and other branded support items.</p>
+                            <Link
+                                href="#contact"
+                                className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-300 text-slate-600 font-semibold rounded-md hover:bg-slate-100 transition-colors text-sm"
+                            >
+                                Enquire / Support
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

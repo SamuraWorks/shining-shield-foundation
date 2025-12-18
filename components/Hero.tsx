@@ -21,43 +21,41 @@ export default function Hero() {
 
             <div className="container relative z-10 mx-auto px-4 md:px-6 text-center">
                 <Reveal width="100%">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-white/90 text-xs font-semibold uppercase tracking-wider mb-8 border border-white/10">
-                        <ShieldCheck size={14} className="text-accent" />
-                        <span>Community Initiative • Est. 2025</span>
-                    </div>
+                    <p className="inline-block text-accent font-semibold tracking-wider uppercase mb-4">
+                        Protecting dreams, empowering futures
+                    </p>
                 </Reveal>
 
                 <Reveal width="100%" delay={0.1}>
                     <h1 className="max-w-4xl mx-auto text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-white leading-tight tracking-tight mb-6 uppercase">
-                        Shining Shield Foundation (SSF)
+                        Shining Shield Foundation
                     </h1>
                 </Reveal>
 
                 <Reveal width="100%" delay={0.2}>
-                    <p className="max-w-2xl mx-auto text-2xl font-light text-accent italic mb-10 leading-relaxed font-heading">
-                        "Together We Shield, Together We Shine"
+                    <p className="max-w-2xl mx-auto text-2xl font-light text-white/90 italic mb-8 leading-relaxed font-heading border-l-4 border-accent pl-4">
+                        “Together we shield, together we shine”
                     </p>
                 </Reveal>
 
                 <Reveal width="100%" delay={0.3}>
                     <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 mb-10 leading-relaxed">
-                        Dedicated to supporting brilliant but less privileged students in Sierra Leone through educational materials and community outreach.
+                        To empower and protect children and youths by providing access to education, mentorship, and life skills training.
                     </p>
                 </Reveal>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                     <Link
-                        href="#donate"
-                        className="w-full sm:w-auto px-8 py-4 bg-accent hover:bg-accent-hover text-white font-bold rounded-md shadow-lg shadow-black/20 transition-all transform hover:-translate-y-1 text-center"
+                        href="#get-involved"
+                        className="w-full sm:w-auto px-8 py-3 bg-white text-primary font-bold rounded-md hover:bg-slate-100 transition-all text-center"
                     >
-                        Make a Contribution
+                        Get Involved
                     </Link>
                     <Link
-                        href="#about"
-                        className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 text-white font-semibold rounded-md border border-white/10 backdrop-blur-sm transition-all text-center flex items-center justify-center gap-2 group"
+                        href="#donate"
+                        className="w-full sm:w-auto px-8 py-3 border-2 border-white text-white font-semibold rounded-md hover:bg-white/10 transition-all text-center"
                     >
-                        Our Mission
-                        <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                        Support the Mission
                     </Link>
                 </div>
             </div>
