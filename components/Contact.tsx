@@ -37,8 +37,8 @@ export default function Contact() {
                                 <div>
                                     <h4 className="text-lg font-bold text-primary mb-1">Phone</h4>
                                     <p className="text-slate-600">
-                                        032 778 016 (WhatsApp)<br />
-                                        078 921 412 (Call)
+                                        <a href="tel:+23232778016" className="hover:text-accent transition-colors">032 778 016 (WhatsApp)</a><br />
+                                        <a href="tel:+23278921412" className="hover:text-accent transition-colors">078 921 412 (Call)</a>
                                     </p>
                                 </div>
                             </div>
@@ -50,7 +50,9 @@ export default function Contact() {
                                 <div>
                                     <h4 className="text-lg font-bold text-primary mb-1">Email</h4>
                                     <p className="text-slate-600">
-                                        shiningshieldfoundation@gmail.com
+                                        <a href="mailto:shiningshieldfoundation@gmail.com" className="hover:text-accent transition-colors">
+                                            shiningshieldfoundation@gmail.com
+                                        </a>
                                     </p>
                                 </div>
                             </div>

@@ -64,11 +64,17 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone size={18} className="text-accent" />
-                                <span>032 778 016 (WhatsApp) / 078 921 412</span>
+                                <span className="flex flex-col sm:block">
+                                    <a href="tel:+23232778016" className="hover:text-accent transition-colors">032 778 016 (WhatsApp)</a>
+                                    <span className="hidden sm:inline"> / </span>
+                                    <a href="tel:+23278921412" className="hover:text-accent transition-colors">078 921 412</a>
+                                </span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail size={18} className="text-accent" />
-                                <span>shiningshieldfoundation@gmail.com</span>
+                                <a href="mailto:shiningshieldfoundation@gmail.com" className="hover:text-accent transition-colors">
+                                    shiningshieldfoundation@gmail.com
+                                </a>
                             </li>
                         </ul>
                     </div>
