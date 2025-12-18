@@ -56,11 +56,18 @@ export default function Header() {
 
                     {/* Actions */}
                     <div className="hidden md:flex items-center gap-4">
-                        {/* 
-                           The requested nav list concludes with Donate | Contact.
-                           We can style the 'Donate' link in the map if needed, 
-                           or just keep it simple.
-                        */}
+                        <Link
+                            href="#get-involved"
+                            className="text-primary font-semibold hover:text-accent transition-colors"
+                        >
+                            Get Involved
+                        </Link>
+                        <Link
+                            href="#donate"
+                            className="px-6 py-2.5 bg-accent text-white font-bold rounded-full hover:bg-accent/90 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                        >
+                            Donate
+                        </Link>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -88,6 +95,20 @@ export default function Header() {
                                 {link.name}
                             </Link>
                         ))}
+                        <Link
+                            href="#get-involved"
+                            onClick={() => setIsOpen(false)}
+                            className="text-base font-semibold text-primary py-2"
+                        >
+                            Get Involved
+                        </Link>
+                        <Link
+                            href="#donate"
+                            onClick={() => setIsOpen(false)}
+                            className="w-full text-center px-6 py-3 bg-accent text-white font-semibold rounded-md"
+                        >
+                            Donate Now
+                        </Link>
                     </div>
                 </div>
             )}

@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Instagram } from "lucide-react";
+import { Mail, MapPin, Phone, Instagram, Send } from "lucide-react";
 
 export default function Contact() {
     return (
@@ -7,16 +7,14 @@ export default function Contact() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
                     {/* Contact Info */}
-                    <div className="space-y-8">
-                        <div>
-                            <h2 className="text-accent font-bold uppercase tracking-widest text-sm mb-3">Get In Touch</h2>
-                            <h3 className="text-3xl md:text-4xl font-heading font-bold text-primary mb-6">
-                                Contact Information
-                            </h3>
-                            <p className="text-slate-600 text-lg leading-relaxed">
-                                We welcome inquiries from government offices, international donors, corporate partners, and the general public.
-                            </p>
-                        </div>
+                    <div>
+                        <h2 className="text-accent font-bold uppercase tracking-widest text-sm mb-3">Get In Touch</h2>
+                        <h3 className="text-3xl md:text-4xl font-heading font-bold text-primary mb-6">
+                            Contact Our Office
+                        </h3>
+                        <p className="text-slate-600 text-lg leading-relaxed mb-8">
+                            We welcome inquiries from the public, media, and potential partners. Please allow 24-48 hours for a response from our communications team.
+                        </p>
 
                         <div className="space-y-6">
                             <div className="flex gap-4">
@@ -73,22 +71,65 @@ export default function Contact() {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Map Integration */}
+                        <div className="mt-8 h-64 bg-slate-200 rounded-lg overflow-hidden relative shadow-md border border-slate-200">
+                            <iframe
+                                width="100%"
+                                height="100%"
+                                id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=130%20British%20Road%2C%20New%20London%2C%20Kossoh%20Town%2C%20Jui%2C%20Sierra%20Leone&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                frameBorder="0"
+                                scrolling="no"
+                                marginHeight={0}
+                                marginWidth={0}
+                                title="Shining Shield Foundation Location"
+                                className="w-full h-full"
+                            ></iframe>
+                        </div>
                     </div>
 
-                    {/* Map Integration */}
-                    <div className="h-[400px] bg-slate-200 rounded-xl overflow-hidden relative shadow-lg border border-slate-200">
-                        <iframe
-                            width="100%"
-                            height="100%"
-                            id="gmap_canvas"
-                            src="https://maps.google.com/maps?q=130%20British%20Road%2C%20New%20London%2C%20Kossoh%20Town%2C%20Jui%2C%20Sierra%20Leone&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                            frameBorder="0"
-                            scrolling="no"
-                            marginHeight={0}
-                            marginWidth={0}
-                            title="Shining Shield Foundation Location"
-                            className="w-full h-full grayscale hover:grayscale-0 transition-all duration-500"
-                        ></iframe>
+                    {/* Contact Form - RESTORED */}
+                    <div className="bg-slate-50 rounded-xl p-8 border border-slate-100">
+                        <h4 className="text-2xl font-bold font-heading text-primary mb-6">Send a Message</h4>
+                        <form className="space-y-6">
+                            <div>
+                                <label className="block text-sm font-medium text-slate-700 mb-1">Full Name</label>
+                                <input type="text" className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent outline-none bg-white" placeholder="Your Name" />
+                            </div>
+
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label className="block text-sm font-medium text-slate-700 mb-1">Email Address</label>
+                                    <input type="email" className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent outline-none bg-white" placeholder="email@example.com" />
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-medium text-slate-700 mb-1">Phone Number</label>
+                                    <input type="tel" className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent outline-none bg-white" placeholder="+232..." />
+                                </div>
+                            </div>
+
+                            <div>
+                                <label className="block text-sm font-medium text-slate-700 mb-1">Subject</label>
+                                <select className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent outline-none bg-white">
+                                    <option>General Inquiry</option>
+                                    <option>Volunteering</option>
+                                    <option>Partnership Proposal</option>
+                                    <option>Media Request</option>
+                                    <option>Report an Issue</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label className="block text-sm font-medium text-slate-700 mb-1">Message</label>
+                                <textarea rows={5} className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent outline-none bg-white" placeholder="How can we help?"></textarea>
+                            </div>
+
+                            <button type="button" className="w-full py-4 bg-primary hover:bg-primary-light text-white font-bold rounded-md shadow-lg transition-colors flex items-center justify-center gap-2">
+                                <Send size={20} />
+                                Send Message
+                            </button>
+                        </form>
                     </div>
 
                 </div>
