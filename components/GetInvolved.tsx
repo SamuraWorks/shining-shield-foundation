@@ -17,67 +17,44 @@ export default function GetInvolved() {
                     </p>
                 </div>
 
-                <div className="max-w-4xl mx-auto text-center mb-16">
-                    <h2 className="text-accent font-bold uppercase tracking-widest text-sm mb-3">Join The Movement</h2>
-                    <h3 className="text-3xl md:text-4xl font-heading font-bold text-primary mb-6">
-                        Get Involved
-                    </h3>
-                    <p className="text-slate-600 text-lg">
-                        We are always looking for passionate individuals and organizations to join our mission.
-                    </p>
-                </div>
-
-                <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-xl border border-slate-100 p-8 md:p-12">
-                    <form className="space-y-6">
-                        <div>
-                            <label className="block text-sm font-medium text-slate-700 mb-2">Full Name</label>
-                            <input
-                                type="text"
-                                className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent outline-none bg-slate-50"
-                                placeholder="Your Name"
-                            />
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    {/* Volunteer */}
+                    <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
+                        <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-6">
+                            <HandHeart size={32} />
                         </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div>
-                                <label className="block text-sm font-medium text-slate-700 mb-2">Email Address</label>
-                                <input
-                                    type="email"
-                                    className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent outline-none bg-slate-50"
-                                    placeholder="email@example.com"
-                                />
-                            </div>
-                            <div>
-                                <label className="block text-sm font-medium text-slate-700 mb-2">Phone Number</label>
-                                <input
-                                    type="tel"
-                                    className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent outline-none bg-slate-50"
-                                    placeholder="+232..."
-                                />
-                            </div>
-                        </div>
-
-                        <div>
-                            <label className="block text-sm font-medium text-slate-700 mb-2">I am interested in...</label>
-                            <select className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent outline-none bg-slate-50">
-                                <option value="Volunteer">Volunteering</option>
-                                <option value="Partner">Partnering</option>
-                                <option value="Sponsor">Sponsorship</option>
-                            </select>
-                        </div>
-
-                        <button
-                            type="button"
-                            className="w-full py-4 bg-primary hover:bg-primary-light text-white font-bold rounded-md shadow-lg transition-colors"
-                            onClick={() => window.open('https://wa.me/23232778016', '_blank')}
-                        >
-                            Submit Interest
-                        </button>
-
-                        <p className="text-xs text-center text-slate-500 mt-4">
-                            Submitting this form will connect you with our team via WhatsApp to proceed.
+                        <h4 className="text-2xl font-bold font-heading text-primary mb-4">Volunteer With Us</h4>
+                        <p className="text-slate-600 mb-8 leading-relaxed">
+                            Join our ground teams for emergency response, community outreach, and event coordination. Gain valuable experience while serving your nation.
                         </p>
-                    </form>
+                        <a
+                            href="https://wa.me/23232778016?text=Hello%20SSF%2C%20I%20am%20interested%20in%20becoming%20a%20volunteer."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-auto px-8 py-3 bg-white border-2 border-primary text-primary font-bold rounded-md hover:bg-primary hover:text-white transition-colors"
+                        >
+                            Volunteer (WhatsApp)
+                        </a>
+                    </div>
+
+                    {/* Partner Card */}
+                    <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
+                        <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-6">
+                            <Users2 size={32} />
+                        </div>
+                        <h4 className="text-2xl font-bold font-heading text-primary mb-4">Partner With Us</h4>
+                        <p className="text-slate-600 mb-4 leading-relaxed">
+                            Shining Shield Foundation is open to partnerships with individuals, organizations, and institutions aligned with our mission.
+                        </p>
+                        <a
+                            href="https://wa.me/23232778016?text=Hello%20SSF%2C%20we%20are%20interested%20in%20discussing%20a%20partnership."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-auto px-8 py-3 bg-white border-2 border-primary text-primary font-bold rounded-md hover:bg-primary hover:text-white transition-colors"
+                        >
+                            Partner With Us (WhatsApp)
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

@@ -34,7 +34,7 @@ export default function SupportProducts() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                    {/* Product 1 */}
+                    {/* Product 1 - Soap */}
                     <div className="bg-slate-50 rounded-xl p-6 border border-slate-100 flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
                         <div className="w-32 h-32 bg-white rounded-lg flex-shrink-0 flex items-center justify-center border border-slate-200 shadow-sm overflow-hidden">
                             <img src="/products/shield-clean-flyer.jpg" alt="Shield Clean Soap" className="w-full h-full object-cover" />
@@ -45,30 +45,27 @@ export default function SupportProducts() {
                                 "Clean Hands, Clean Hearts, Brighter Futures."<br />
                                 Versatile soap supporting SSF programs.
                             </p>
-                            <Link
-                                href="#contact"
-                                className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-primary text-primary font-semibold rounded-md hover:bg-primary hover:text-white transition-colors text-sm"
+                            <a
+                                href="https://wa.me/23232778016?text=Hello%20SSF%2C%20I%20am%20interested%20in%20Shield%20Clean%20Soap."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 px-4 py-2 bg-[#25D366] text-white font-semibold rounded-md hover:bg-[#20bd5a] transition-colors text-sm"
                             >
-                                Enquire / Support
-                            </Link>
+                                <ShoppingBag size={16} />
+                                Enquire via WhatsApp
+                            </a>
                         </div>
                     </div>
 
-                    {/* Product 2 (Placeholder) */}
-                    <div className="bg-slate-50 rounded-xl p-6 border border-slate-100 flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
-                        <div className="w-32 h-32 bg-white rounded-lg flex-shrink-0 flex items-center justify-center border border-slate-200 shadow-sm">
-                            <ShoppingBag className="text-slate-300" size={32} />
+                    {/* Coming Soon Note */}
+                    <div className="bg-slate-50 rounded-xl p-8 border border-slate-100 flex flex-col items-center justify-center text-center h-full">
+                        <div className="w-16 h-16 bg-slate-200 rounded-full flex items-center justify-center text-slate-400 mb-4 opacity-50">
+                            <ShoppingBag size={24} />
                         </div>
-                        <div className="flex-1">
-                            <h4 className="text-xl font-bold text-primary mb-2">Other Branded Items</h4>
-                            <p className="text-sm text-slate-600 mb-4">Educational materials and other branded support items.</p>
-                            <Link
-                                href="#contact"
-                                className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-300 text-slate-600 font-semibold rounded-md hover:bg-slate-100 transition-colors text-sm"
-                            >
-                                Enquire / Support
-                            </Link>
-                        </div>
+                        <h4 className="text-lg font-bold text-slate-400 mb-2">Coming Soon</h4>
+                        <p className="text-sm text-slate-500 italic max-w-xs">
+                            Other support items such as branded T-shirts and similar materials will be available soon to help support our programs.
+                        </p>
                     </div>
                 </div>
             </div>
