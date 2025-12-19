@@ -36,8 +36,8 @@ export default function SupportProducts() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     {/* Product 1 - Soap */}
                     <div className="bg-slate-50 rounded-xl p-6 border border-slate-100 flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
-                        <div className="w-32 h-32 bg-white rounded-lg flex-shrink-0 flex items-center justify-center border border-slate-200 shadow-sm overflow-hidden">
-                            <img src="/products/shield-clean-flyer.jpg" alt="Shield Clean Soap" className="w-full h-full object-cover" />
+                        <div className="w-48 h-48 bg-white rounded-lg flex-shrink-0 flex items-center justify-center border border-slate-200 shadow-sm overflow-hidden">
+                            <img src="/products/shield-clean-flyer.jpg" alt="Shield Clean Soap" className="w-full h-full object-contain p-2" />
                         </div>
                         <div className="flex-1">
                             <h4 className="text-xl font-bold text-primary mb-2">Shield Clean Multi-Purpose Liquid Soap</h4>
