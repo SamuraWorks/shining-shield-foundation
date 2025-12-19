@@ -27,14 +27,22 @@ export default function GetInvolved() {
                         <p className="text-slate-600 mb-8 leading-relaxed">
                             Join our ground teams for emergency response, community outreach, and event coordination. Gain valuable experience while serving your nation.
                         </p>
-                        <a
-                            href="https://wa.me/23232778016?text=Hello%20SSF%2C%20I%20am%20interested%20in%20becoming%20a%20volunteer."
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mt-auto px-8 py-3 bg-white border-2 border-primary text-primary font-bold rounded-md hover:bg-primary hover:text-white transition-colors"
-                        >
-                            Volunteer (WhatsApp)
-                        </a>
+                        <div className="mt-auto space-y-3 w-full">
+                            <a
+                                href="https://wa.me/23232778016?text=Hello%20SSF%2C%20I%20am%20interested%20in%20becoming%20a%20volunteer."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block w-full text-center px-8 py-3 bg-white border-2 border-primary text-primary font-bold rounded-md hover:bg-primary hover:text-white transition-colors"
+                            >
+                                Volunteer (WhatsApp)
+                            </a>
+                            <a
+                                href="mailto:shiningshieldfoundation@gmail.com?subject=Volunteer%20Interest&body=Hello%20SSF%2C%20I%20am%20interested%20in%20becoming%20a%20volunteer."
+                                className="block w-full text-center px-8 py-3 bg-slate-100 border-2 border-slate-300 text-slate-700 font-bold rounded-md hover:bg-slate-200 transition-colors"
+                            >
+                                Volunteer (Email)
+                            </a>
+                        </div>
                     </div>
 
                     {/* Partner Card */}
@@ -46,14 +54,22 @@ export default function GetInvolved() {
                         <p className="text-slate-600 mb-4 leading-relaxed">
                             Shining Shield Foundation is open to partnerships with individuals, organizations, and institutions aligned with our mission.
                         </p>
-                        <a
-                            href="https://wa.me/23232778016?text=Hello%20SSF%2C%20we%20are%20interested%20in%20discussing%20a%20partnership."
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mt-auto px-8 py-3 bg-white border-2 border-primary text-primary font-bold rounded-md hover:bg-primary hover:text-white transition-colors"
-                        >
-                            Partner With Us (WhatsApp)
-                        </a>
+                        <div className="mt-auto space-y-3 w-full">
+                            <a
+                                href="https://wa.me/23232778016?text=Hello%20SSF%2C%20we%20are%20interested%20in%20discussing%20a%20partnership."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block w-full text-center px-8 py-3 bg-white border-2 border-primary text-primary font-bold rounded-md hover:bg-primary hover:text-white transition-colors"
+                            >
+                                Partner With Us (WhatsApp)
+                            </a>
+                            <a
+                                href="mailto:shiningshieldfoundation@gmail.com?subject=Partnership%20Inquiry&body=Hello%20SSF%2C%20we%20are%20interested%20in%20discussing%20a%20partnership."
+                                className="block w-full text-center px-8 py-3 bg-slate-100 border-2 border-slate-300 text-slate-700 font-bold rounded-md hover:bg-slate-200 transition-colors"
+                            >
+                                Partner With Us (Email)
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
