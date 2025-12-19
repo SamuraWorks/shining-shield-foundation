@@ -10,6 +10,7 @@ import Donate from "@/components/Donate";
 import GetInvolved from "@/components/GetInvolved";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <GetInvolved />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </main>
   );
 }
