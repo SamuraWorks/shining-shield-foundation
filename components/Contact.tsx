@@ -82,11 +82,12 @@ export default function Contact() {
                                 id="gmap_canvas"
                                 src="https://maps.google.com/maps?q=130%20British%20Road%2C%20New%20London%2C%20Kossoh%20Town%2C%20Jui%2C%20Sierra%20Leone&t=&z=15&ie=UTF8&iwloc=&output=embed"
                                 frameBorder="0"
-                                scrolling="no"
                                 marginHeight={0}
                                 marginWidth={0}
                                 title="Shining Shield Foundation Location"
-                                className="w-full h-full grayscale hover:grayscale-0 transition-all duration-500"
+                                className="w-full h-full"
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
                             ></iframe>
                         </div>
                     </div>
